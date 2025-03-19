@@ -1,0 +1,27 @@
+{
+    "nom_projet": "Gestion du Zoo",
+    "description": "Ce projet utilise un fichier pickle (zoo.p) pour stocker les données d'un petit zoo.",
+    "fichier_donnees": "zoo.p",
+    "format_donnees": "dictionnaire Python",
+    "structure": {
+      "clé": "nom de l'animal (ex: lion)",
+      "valeur": {
+        "espèce": "nom scientifique",
+        "âge": "entier (âge en années)",
+        "enclos": "numéro d'enclos (entier)",
+        "régime": "type de nourriture (carnivore/herbivore)"
+      }
+    },
+    "especes_enregistrees": [
+      "Panthera leo",
+      "Giraffa camelopardalis",
+      "Aptenodytes forsteri"
+    ],
+    "version": "1.0",
+    "date_creation": "2025-03-16",
+    "dependances": [
+      "pickle (standard Python)"
+    ],
+    "auteur": "Ton Nom"
+  }
+  
